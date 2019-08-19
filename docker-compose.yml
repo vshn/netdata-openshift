@@ -1,0 +1,12 @@
+version: '3'
+services:
+  netdata:
+    build:
+      context: ./latest/
+      dockerfile: Dockerfile
+    image: vshn/netdata-openshift:latest
+    ports:
+    - "19999:19999"
+    command: -W set web "web files group" root -W set web "web files owner" netdata
+    user: "1000:0"
+    restart: "no"
