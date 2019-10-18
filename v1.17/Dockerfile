@@ -1,4 +1,4 @@
-FROM docker.io/netdata/netdata:v1.17.0
+FROM docker.io/netdata/netdata:v1.18.1
 
 RUN \
     chgrp -R root /var/cache/netdata /var/lib/netdata /usr/libexec/netdata /usr/lib/netdata /usr/share/netdata && \
