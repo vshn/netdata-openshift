@@ -5,6 +5,7 @@
   "ignorePaths": [
     "v1.16/Dockerfile",
     "v1.17/Dockerfile",
-    "v1.18/Dockerfile"
+    "v1.18/Dockerfile",
+    "v1.19/Dockerfile"
   ]
 }
